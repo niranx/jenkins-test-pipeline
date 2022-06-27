@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'node --version \
-                ls -la'
+                sh 'node --version & ls -la'
             }
         }
     }
